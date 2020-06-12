@@ -1,10 +1,10 @@
 # whatsgw
-Exemplos de aplicação para utilizar a API WhatsApp WhatsGW
+Exemplos de aplicação para utilizar a API WhatsApp WhatsGW<br>
 
-C#
-var parameters = new System.Collections.Specialized.NameValueCollection();
-var client = new System.Net.WebClient();
-var url = "https://app.whatsgw.com.br/api/WhatsGw/Send/";
+C#<br>
+var parameters = new System.Collections.Specialized.NameValueCollection();<br>
+var client = new System.Net.WebClient();<br>
+var url = "https://app.whatsgw.com.br/api/WhatsGw/Send/";<br><br>
 
 parameters.Add("apikey", "6E3F58D5-8784-45F3-B436-YOWAPIKEY");<br>
 parameters.Add("phone_number", "551199999999");<br>
