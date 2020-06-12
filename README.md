@@ -19,7 +19,7 @@ parameters.Add("phone_number", "551199999999");
 parameters.Add("contact_phone_number", "551199999999");
 parameters.Add("message_custom_id", "tste");
 parameters.Add("message_type", "text");
-parameters.Add("message_body", "Hello Word WhatsGW");
+parameters.Add("message_body", "Hello World WhatsGW");
 
 string responseString = "";
 byte[] response_data;
