@@ -2,7 +2,7 @@
 Exemplos de aplicação para utilizar a API WhatsApp [WhatsGW](https://whatsgw.com.br)
 
 1. [Cadastre-se](https://app.whatsgw.com.br/login_novo.aspx) para obter seu APIKey
-2. [Instale a Exntesão do Google Chrome](https://chrome.google.com/webstore/detail/whatsgw/bcddfclcghmjpkihmjdlnejflhccdjgg?hl=pt-BR)
+2. [Instale a Extensão do Google Chrome](https://chrome.google.com/webstore/detail/whatsgw/bcddfclcghmjpkihmjdlnejflhccdjgg?hl=pt-BR)
 3. Valide sua APIKey na Extensão do Google Chrome
 4. Abra o [WhatsApp Web](https://web.whatsapp.com)
 5. [Faça suas integrações](https://documenter.getpostman.com/view/3741041/SztBa7ku?version=latest)
