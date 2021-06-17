@@ -5,6 +5,6 @@
     </StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>"" "c:\lixo\body.txt"</StartArguments>
+    <StartArguments>"" "C:\vb\whatsgw\utilities\send\bin\Release\body.txt"</StartArguments>
   </PropertyGroup>
 </Project>
