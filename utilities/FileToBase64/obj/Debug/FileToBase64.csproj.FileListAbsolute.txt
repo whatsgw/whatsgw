@@ -5,3 +5,9 @@ C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.csprojAssemblyRe
 C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.csproj.CoreCompileInputs.cache
 C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.exe
 C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.pdb
+C:\vb\whatsgw\utilities\FileToBase64\bin\Debug\FileToBase64.exe.config
+C:\vb\whatsgw\utilities\FileToBase64\bin\Debug\FileToBase64.exe
+C:\vb\whatsgw\utilities\FileToBase64\bin\Debug\FileToBase64.pdb
+C:\vb\whatsgw\utilities\FileToBase64\obj\Debug\FileToBase64.csproj.CoreCompileInputs.cache
+C:\vb\whatsgw\utilities\FileToBase64\obj\Debug\FileToBase64.exe
+C:\vb\whatsgw\utilities\FileToBase64\obj\Debug\FileToBase64.pdb
