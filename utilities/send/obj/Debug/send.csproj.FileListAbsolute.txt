@@ -1,0 +1,7 @@
+C:\vb\whatsgw\utilities\send\bin\Debug\send.exe.config
+C:\vb\whatsgw\utilities\send\bin\Debug\send.exe
+C:\vb\whatsgw\utilities\send\bin\Debug\send.pdb
+C:\vb\whatsgw\utilities\send\obj\Debug\send.csproj.AssemblyReference.cache
+C:\vb\whatsgw\utilities\send\obj\Debug\send.csproj.CoreCompileInputs.cache
+C:\vb\whatsgw\utilities\send\obj\Debug\send.exe
+C:\vb\whatsgw\utilities\send\obj\Debug\send.pdb
