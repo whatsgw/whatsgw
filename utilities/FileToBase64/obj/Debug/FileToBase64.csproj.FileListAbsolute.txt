@@ -1,0 +1,7 @@
+C:\Users\pedro\source\repos\FileToBase64\bin\Debug\FileToBase64.exe.config
+C:\Users\pedro\source\repos\FileToBase64\bin\Debug\FileToBase64.exe
+C:\Users\pedro\source\repos\FileToBase64\bin\Debug\FileToBase64.pdb
+C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.csprojAssemblyReference.cache
+C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.exe
+C:\Users\pedro\source\repos\FileToBase64\obj\Debug\FileToBase64.pdb
