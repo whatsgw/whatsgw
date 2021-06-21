@@ -1,7 +1,7 @@
 C:\vb\whatsgw\utilities\send\bin\Release\send.exe.config
 C:\vb\whatsgw\utilities\send\bin\Release\send.exe
 C:\vb\whatsgw\utilities\send\bin\Release\send.pdb
+C:\vb\whatsgw\utilities\send\obj\Release\send.csproj.AssemblyReference.cache
 C:\vb\whatsgw\utilities\send\obj\Release\send.csproj.CoreCompileInputs.cache
 C:\vb\whatsgw\utilities\send\obj\Release\send.exe
 C:\vb\whatsgw\utilities\send\obj\Release\send.pdb
-C:\vb\whatsgw\utilities\send\obj\Release\send.csproj.AssemblyReference.cache
