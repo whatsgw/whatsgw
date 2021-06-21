@@ -1,0 +1,13 @@
+C:\vb\Chat_ss\SwitchProcess\bin\Release\SwitchProcess.exe.config
+C:\vb\Chat_ss\SwitchProcess\bin\Release\SwitchProcess.exe
+C:\vb\Chat_ss\SwitchProcess\bin\Release\SwitchProcess.pdb
+C:\vb\Chat_ss\SwitchProcess\obj\Release\SwitchProcess.csproj.CoreCompileInputs.cache
+C:\vb\Chat_ss\SwitchProcess\obj\Release\SwitchProcess.exe
+C:\vb\Chat_ss\SwitchProcess\obj\Release\SwitchProcess.pdb
+C:\vb\whatsgw\utilities\SwitchProcess\bin\Release\SwitchProcess.exe.config
+C:\vb\whatsgw\utilities\SwitchProcess\bin\Release\SwitchProcess.exe
+C:\vb\whatsgw\utilities\SwitchProcess\bin\Release\SwitchProcess.pdb
+C:\vb\whatsgw\utilities\SwitchProcess\obj\Release\SwitchProcess.csproj.AssemblyReference.cache
+C:\vb\whatsgw\utilities\SwitchProcess\obj\Release\SwitchProcess.csproj.CoreCompileInputs.cache
+C:\vb\whatsgw\utilities\SwitchProcess\obj\Release\SwitchProcess.exe
+C:\vb\whatsgw\utilities\SwitchProcess\obj\Release\SwitchProcess.pdb

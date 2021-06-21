@@ -1,0 +1,6 @@
+C:\vb\Chat_ss\SwitchProcess\bin\Debug\SwitchProcess.exe.config
+C:\vb\Chat_ss\SwitchProcess\bin\Debug\SwitchProcess.exe
+C:\vb\Chat_ss\SwitchProcess\bin\Debug\SwitchProcess.pdb
+C:\vb\Chat_ss\SwitchProcess\obj\Debug\SwitchProcess.csproj.CoreCompileInputs.cache
+C:\vb\Chat_ss\SwitchProcess\obj\Debug\SwitchProcess.exe
+C:\vb\Chat_ss\SwitchProcess\obj\Debug\SwitchProcess.pdb

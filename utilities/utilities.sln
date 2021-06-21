@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileToBase64", "FileToBase6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "send", "send\send.csproj", "{FFF45D95-47B8-44CD-B91D-6F6A4AC2E8ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchProcess", "SwitchProcess\SwitchProcess.csproj", "{AE7B72AF-24E7-478D-A353-798AD1B6F66F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FFF45D95-47B8-44CD-B91D-6F6A4AC2E8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFF45D95-47B8-44CD-B91D-6F6A4AC2E8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFF45D95-47B8-44CD-B91D-6F6A4AC2E8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
