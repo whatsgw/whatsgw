@@ -1,0 +1,20 @@
+uses
+	System.SysUtils,
+	IdHTTP;
+
+var
+	url : string;
+	result : string;
+	IdHTTP1 : TIdHTTP;
+
+begin
+	try
+		url := 'https://app.whatsgw.com.br/api/WhatsGw/Send/?apikey= COLOQUE A CHAVE AKI &phone_number=553199999999&contact_phone_number=5531999999999&message_custom_id=mysoftwareid&message_type=text&message_body=Hello World!!';
+
+		IdHTTP1 := TIdHTTP.Create;
+		result := IdHTTP1.Get(url);
+		WriteLn(result);
+	except
+		on E: Exception do
+			Writeln(E.ClassName, ': ', E.Message);
+	end;
