@@ -1,20 +1,46 @@
-uses
-	System.SysUtils,
-	IdHTTP;
-
+function SendToWhatsapp(sSend, sContact, sID, sType, sBody: string): string;
 var
-	url : string;
-	result : string;
-	IdHTTP1 : TIdHTTP;
-
+    cURL, cAPIKey, vURL: string;
+    IdHTTP1 : TIdHTTP;
 begin
-	try
-		url := 'https://app.whatsgw.com.br/api/WhatsGw/Send/?apikey= COLOQUE A CHAVE AKI &phone_number=553199999999&contact_phone_number=5531999999999&message_custom_id=mysoftwareid&message_type=text&message_body=Hello World!!';
+    // cria o objeto
+    IdHTTP1 := TIdHTTP.Create;
 
-		IdHTTP1 := TIdHTTP.Create;
-		result := IdHTTP1.Get(url);
-		WriteLn(result);
+    // define o navegador
+    IdHTTP1.Request.UserAgent := 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36';
+
+    // preenche as constantes
+    cURL    := 'https://app.whatsgw.com.br/api/WhatsGw/Send?'; // URL constante do site
+    cAPIKey := 'sua-apikey-gerada-no-whatsgw';  // APIKey gerada no WhatsGw
+
+    // substitui todos os espaços na sentença por seu código hex
+    sBody := StringReplace(sBody, ' ', '%20', [rfReplaceAll]);
+
+    // monta a URL final a partir dos dados informados
+    vURL := cURL
+            + 'apikey='                + cAPIKey
+            + '&phone_number='         + sSend
+            + '&contact_phone_number=' + sContact
+            + '&message_custom_id='    + sID
+            + '&message_type='         + sType
+            + '&message_body='         + sBody
+            ;
+
+   	try
+        // faz o pedido e armazena a resposta do servidor
+		Result := IdHTTP1.Get(vURL);
+
+        // exibe uma mentagem com a resposta do servidor
+		//WriteLn(result);
 	except
+        // captura o erro encontrado, caso haja
 		on E: Exception do
+            // exibe a mensagem com o erro
 			Writeln(E.ClassName, ': ', E.Message);
 	end;
+
+    // descarrega o objeto
+    IdHTTP1.Free();
+end;
+###############
+
