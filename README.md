@@ -27,3 +27,9 @@ byte[] response_data;
 response_data = client.UploadValues(url, "POST", parameters);
 responseString = UnicodeEncoding.UTF8.GetString(response_data);
 ```
+
+##COMMAND LINE
+
+Example1: [send.exe](https://github.com/whatsgw/whatsgw/blob/master/utilities/send/bin/Release/send.exe) "apikey=B3CA76C2-07F3-47E6-A2F8-YOWAPIKEY&phone_number=5511999999999&contact_phone_number=5511999999999&message_custom_id=mysoftwareid&message_type=text&message_body=Teste%20de%20Msg%5Cn_Italico_%20%5Cn*negrito*%5Cn~tachado~%5Cn%60%60%60Monoespa%C3%A7ado%60%60%60%5Cn%F0%9F%98%9C&check_status=1&schedule=2021%2F04%2F01%2021%3A00%3A00"
+
+Example2: [send.exe](https://github.com/whatsgw/whatsgw/blob/master/utilities/send/bin/Release/send.exe) "" "[c:\body.txt](https://github.com/whatsgw/whatsgw/blob/master/utilities/send/bin/Release/body.txt)"
