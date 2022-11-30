@@ -1,0 +1,15 @@
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\WarmChannels.exe.config
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\WarmChannels.exe
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\WarmChannels.pdb
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\INIFileParser.dll
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\log4net.dll
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\INIFileParser.xml
+C:\vb\whatsgw\utilities\WarmChannels\bin\Release\log4net.xml
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.csproj.AssemblyReference.cache
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.Princ.resources
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.Properties.Resources.resources
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.csproj.GenerateResource.cache
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.csproj.CoreCompileInputs.cache
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.csproj.CopyComplete
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.exe
+C:\vb\whatsgw\utilities\WarmChannels\obj\Release\WarmChannels.pdb

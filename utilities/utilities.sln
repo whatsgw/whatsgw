@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "send", "send\send.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchProcess", "SwitchProcess\SwitchProcess.csproj", "{AE7B72AF-24E7-478D-A353-798AD1B6F66F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarmChannels", "WarmChannels\WarmChannels.csproj", "{B5C12E24-26BA-43D5-A6A8-448A1A8EDC3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7B72AF-24E7-478D-A353-798AD1B6F66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C12E24-26BA-43D5-A6A8-448A1A8EDC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C12E24-26BA-43D5-A6A8-448A1A8EDC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C12E24-26BA-43D5-A6A8-448A1A8EDC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C12E24-26BA-43D5-A6A8-448A1A8EDC3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
