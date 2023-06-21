@@ -1,3 +1,44 @@
+function EnviarWhats(Destino, Mensagem: string): string;
+{Colaboração: Thiago Benko - benkoms@gmail.com}
+var
+  Json: string;
+  sResposta: string;
+  JsonEnvio: TStringStream;
+  idHTTP: TidHTTP;
+begin
+  Json := '{' +
+    '"apikey" : "INFORME AQUI A APIKEY",' +
+    '"phone_number" : "INFORME O CELULAR ORIGEM",' +
+    '"contact_phone_number" : "' + Destino + '",' +
+    '"message_custom_id" : "INFORME O CUSTOMID",' +
+    '"message_type" : "text",' +
+    '"message_body" : "' + Mensagem + '",' +
+    '"check_status" : "1"' +
+    '}';
+
+  idHTTP := TidHTTP.Create;
+  JsonEnvio := TStringStream.Create(utf8Encode(Json));
+
+  try
+    idHTTP.Request.UserAgent := 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36';
+    idHTTP.Request.ContentType := 'application/json';
+    idHTTP.Request.CharSet := 'utf-8';
+
+    try
+      sResposta := idHTTP.Post('https://app.whatsgw.com.br/api/WhatsGw/Send', JsonEnvio);
+    except
+      on E: Exception do
+        ShowMessage('Error on request:' + e.Message);
+    end;
+  finally
+    idHTTP.Free;
+    JsonEnvio.Free;
+  end;
+  
+  Result := sResposta;
+end;
+
+
 function SendToWhatsapp(sSend, sContact, sID, sType, sBody: string): string;
 var
     cURL, cAPIKey, vURL: string;
@@ -43,4 +84,5 @@ begin
     IdHTTP1.Free();
 end;
 ###############
+
 
