@@ -1,0 +1,58 @@
+{
+  Enviar qualquer tipo de imagem.
+  A variavel IMG seria a imagem já convertida em base64
+}
+function Tfun.SendWPDF(Destino, PDF, Nome, Descricao: string): string;
+var
+  Json: string;
+  sResponse: string;
+  JsonToSend: TStringStream;
+begin
+  if dm1.whatsgw.state in [dsOpening] then
+  begin
+    //dm1.whatsgw.Open();
+  end 
+  else
+  begin
+    dm1.whatsgw.Open();
+  end;
+
+  if dm1.whatsgw.RecordCount > 0 then
+  begin
+    destino := StringReplace(destino, '(', '', [rfIgnoreCase,rfReplaceAll]);
+    destino := StringReplace(destino, ')', '', [rfIgnoreCase,rfReplaceAll]);
+    destino := StringReplace(destino, '-', '', [rfIgnoreCase,rfReplaceAll]);
+
+    Json := '{' +
+            '"apikey" : "' + dm1.whatsgwAPIKEY.Text + '",' +
+            '"phone_number" : "' + dm1.whatsgwCELULAR.Text + '",' +
+            '"contact_phone_number" : "55' + Destino + '",' +
+            '"message_custom_id" : "' + dm1.whatsgwCUSTOMID.Text + '",' +
+            '"message_type" : "image",' +
+            '"message_caption" : "' + Descricao + '",' +
+            '"message_body_mimetype" : "application/pdf",' +
+            '"message_body_filename" : "' + Nome + '",' +
+            '"message_body" : "' + pdf + '",' +
+            '"check_status" : "1"' +
+            '}';
+
+    JsonToSend := TStringStream.Create(json);
+
+    try
+      idHTTP.Request.ContentType := 'application/x-www-form-urlencoded';
+
+      try
+        sResponse := idHTTP.Post('http://app.whatsgw.com.br/api/WhatsGw/Send', JsonToSend);
+      except
+        on E: Exception do
+          ShowMessage('Error on request:' + e.Message);
+      end;
+    finally
+      JsonToSend.Free;
+    end;
+
+    result := sResponse;
+  end 
+  else
+    MsgInfo('', 'Nenhuma configuração do WhatsGW encontrata!');
+end;

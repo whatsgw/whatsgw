@@ -1,0 +1,30 @@
+// Declare em USES do form: Soap.EncdDecd
+function FileToB64(Nome: String): String;
+{Criado por Thiago Benko
+benkoms@gmail.com}
+var
+  inStream: TStream;
+  outStream: TStream;
+  vFile: String;
+  vStringList: TStringList;
+begin
+  inStream := TFileStream.Create(Nome, fmOpenRead);
+  vStringList := tStringList.Create;
+
+  try
+    vfile := formatDateTime('hhmmss', Now);
+    outStream := TFileStream.Create(vFile, fmCreate);
+
+    try
+      Soap.EncdDecd.EncodeStream(inStream, outStream);
+    finally
+      outStream.Free;
+    end;
+
+    vStringList.LoadFromFile(vfile);
+    result := vStringList.Text;
+  finally
+    DeleteFile(Pchar(vFile));
+    inStream.Free;
+  end;
+end;
