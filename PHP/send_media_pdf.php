@@ -6,7 +6,7 @@ $curl = curl_init();
 $data = file_get_contents('sample.pdf');
 $mediaBody = base64_encode($data);
 
-$postfields = "apikey=6E3F58D5-8784-45F3-B436-87DC96DCAEFC&phone_number=5511966394667&contact_phone_number=5511989366726&message_custom_id=mysoftwareid&message_type=image&message_body_mimetype=application/pdf&message_body_filename=sample.pdf&message_caption=hello caption&message_body=".$mediaBody;
+$postfields = "apikey=6E3F58D5-8784-45F3-B436-87DC96DCAEFC&phone_number=5511966394667&contact_phone_number=5511989366726&message_custom_id=mysoftwareid&message_type=document&message_body_mimetype=application/pdf&message_body_filename=sample.pdf&message_caption=hello caption&message_body=".$mediaBody;
 
 $postfields=stripslashes($postfields);
 
